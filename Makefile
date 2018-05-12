@@ -101,7 +101,8 @@ endif
 #                    #
 ######################
 
-VFILES:=MyDigitParser.v\
+VFILES:=AbstractParser.v\
+  MyDigitParser.v\
   MyIntegerParser.v\
   MyLimitedExpressionParser.v\
   MyExpressionParser.v\
